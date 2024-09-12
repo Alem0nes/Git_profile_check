@@ -10,24 +10,28 @@
 <body>
     <header>
         <div class="container">
-            <img class="profile-avatar" src="https://via.placeholder.com/180x180" alt=".">
-            <h1 class="profile-name">Gian Souza</h1>
-            <h2 class="profile-username">@ogiansouza</h2>
+            <img class="profile-avatar" src="./25231.png" alt="." id="gitAvatar">
+            <h1 class="profile-name" id="gitName"></h1>
+            <h2 class="profile-username" id="gitUser"></h2>
             <ul class="numbers">
                 <li class="numbers-item">
                     <h4>Repositórios</h4>
-                    5
+                    <span id="gitTarefas"></span>
                 </li>
                 <li class="numbers-item">
                     <h4>Seguidores</h4>
-                    5
+                    <span id="gitFallowers"></span>
                 </li>
                 <li class="numbers-item">
                     <h4>Seguindo</h4>
-                    5
+                    <span id="gitFallowing"></span>
                 </li>
             </ul>
-            <a href="#" class="profile-link">Ver no Github</a>
+            <div class="reserch">
+                <input type="text" class="gituserempty" id="gituserempty" placeholder="Your User">
+                <button class="button" id="button">Reserch</button>
+                <a href="#" class="profile" id="gitLink">Ver no Github</a>
+            </div>
         </div>
     </header>
     <script src="./jquery.js"></script>
