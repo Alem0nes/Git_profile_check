@@ -48,15 +48,6 @@ header .container {
     font-size: 1.1em;
 }
 
-.profile-link {
-    background-color: var(--header-color);
-    color: var(--bg-color);
-    padding: 8px 16px;
-    display: inline-block;
-    margin-top: 24px;
-    text-decoration: none;
-}
-
 .numbers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -69,4 +60,40 @@ header .container {
 
 .numbers-item h4 {
     font-size: .3em;
+}
+
+
+.reserch{
+align-items: center;
+justify-content: center;
+justify-items: center;
+margin-top: 24px;
+}
+
+.gituserempty{
+    font-size: 16px;
+}
+
+.button {
+    background-color: var(--header-color);
+    color: var(--bg-color);
+    padding: 8px 16px;
+    display: inline-block;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.profile {
+    background-color: var(--header-color);
+    color: var(--bg-color);
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    height: 30px;
+    font-size: 16px;    
 }
